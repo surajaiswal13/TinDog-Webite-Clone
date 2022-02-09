@@ -1,10 +1,15 @@
 body {
-  font-family: "Montserrat"
+  font-family: "Montserrat";
 }
 
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -20,7 +25,7 @@ h2 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .navbar {
@@ -68,12 +73,18 @@ p {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  /* z-index: -1; */
+  position: absolute;
+  right: 30%;
 }
 
 /* Features Section */
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
 }
 
 .feature-box {
@@ -121,4 +132,24 @@ p {
 .press-logo {
   width: 15%;
   margin: 50px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
