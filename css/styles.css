@@ -40,6 +40,14 @@ h1 {
   font-weight: bolder;
 }
 
+h3 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light"
@@ -54,4 +62,24 @@ h1 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.custom-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.custom-icon:hover {
+  color: #ff4c68
 }
